@@ -4,7 +4,7 @@ export interface ThemeConfig {
   menuList: { name: string; url: string }[]
 
   //banner
-  name: luckypqc's Blog
+  name: string
   welcomeText: string
   motto: string
   social: { icon: string; url: string }[]
@@ -48,8 +48,8 @@ export default defineConfigWithTheme<ThemeConfig>({
   sitemap: {
     hostname: 'https://vitepress-theme-bluearchive.vercel.app',
   },
-  title: "Sensei's 部落格",
-  description: "Sensei's 部落格",
+  title: "luckypqc's Blog",
+  description: "luckypqc's Blog",
   themeConfig: {
     // navBar
     menuList: [
@@ -58,21 +58,21 @@ export default defineConfigWithTheme<ThemeConfig>({
     ],
 
     //banner区配置
-    name: "Sensei's 部落格",
-    welcomeText: 'Hello, VitePress',
+    name: "luckypqc's Blog",
+    welcomeText: 'Hello!',
     motto: '何気ない日常で、ほんの少しの奇跡を見つける物語。',
     social: [
-      { icon: 'github', url: 'https://github.com/' },
+      { icon: 'github', url: 'https://github.com/njpengqc' },
       { icon: 'bilibili', url: 'https://www.bilibili.com/' },
       { icon: 'qq', url: 'https://im.qq.com/index/' },
       { icon: 'wechat', url: 'https://weixin.qq.com/' },
     ],
 
     //footer配置
-    footerName: 'Sensei',
+    footerName: 'luckypqc',
     poweredList: [
       { name: 'VitePress', url: 'https://github.com/vuejs/vitepress' },
-      { name: 'GitHub Pages', url: 'https://docs.github.com/zh/pages' },
+      { name: 'Cloudflare', url: 'https://cloudflare.com' },
     ],
 
     //gitalk配置
