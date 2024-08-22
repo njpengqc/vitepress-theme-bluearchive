@@ -11,11 +11,11 @@ head:
       content: vitepress 新站！
 ---
 
-This is a Chinese post.
+辞旧迎新！
 
 ---
 
-This is a Chinese post.
+辞旧迎新！
 
 新站！
 
