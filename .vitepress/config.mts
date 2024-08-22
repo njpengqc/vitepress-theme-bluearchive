@@ -46,7 +46,7 @@ export default defineConfigWithTheme<ThemeConfig>({
   ],
   ignoreDeadLinks: true,
   sitemap: {
-    hostname: 'https://vitepress-theme-bluearchive.vercel.app',
+    hostname: 'https://www.luckypqc.buzz/',
   },
   title: "luckypqc's Blog",
   description: "luckypqc's Blog",
@@ -63,9 +63,7 @@ export default defineConfigWithTheme<ThemeConfig>({
     motto: '何気ない日常で、ほんの少しの奇跡を見つける物語。',
     social: [
       { icon: 'github', url: 'https://github.com/njpengqc' },
-      { icon: 'bilibili', url: 'https://www.bilibili.com/' },
-      { icon: 'qq', url: 'https://im.qq.com/index/' },
-      { icon: 'wechat', url: 'https://weixin.qq.com/' },
+      { icon: 'bilibili', url: 'https://space.bilibili.com/28800005' },
     ],
 
     //footer配置
