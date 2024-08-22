@@ -4,7 +4,7 @@ export interface ThemeConfig {
   menuList: { name: string; url: string }[]
 
   //banner
-  name: string
+  name: luckypqc's Blog
   welcomeText: string
   motto: string
   social: { icon: string; url: string }[]
